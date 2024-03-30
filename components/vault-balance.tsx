@@ -19,7 +19,7 @@ export default function VaultBalance() {
     abi: tokenAbi,
     address: "0x6aF2dfBE6036790C2886360a09d5088211Caa87a",
     functionName: "balanceOf",
-    args: ["0x6cb7C63762d17630B5F46FD16a29bD7c0503a90a"],
+    args: ["0x43cd9FdD8594Af5299B96b5e46C5706159f902Ad"],
   });
   const vaultBalance = formatEther(tokenBalance ?? BigInt(0));
 

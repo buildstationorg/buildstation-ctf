@@ -44,7 +44,7 @@ export default function SendAllMoneyCard() {
   function onSubmit(values: z.infer<typeof formSchema>) {
     writeContract({ 
       abi: vaultAbi, 
-      address: '0x6cb7C63762d17630B5F46FD16a29bD7c0503a90a', 
+      address: '0x43cd9FdD8594Af5299B96b5e46C5706159f902Ad', 
       functionName: 'sendAllMoney',
       args: [values.address as `0x${string}`],
     });
